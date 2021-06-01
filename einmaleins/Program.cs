@@ -21,7 +21,7 @@ namespace einmaleins
             // 2-dimensionales Datenfeld mit der Dimension dimensionxdimension
             int[,] datenfeld = new int[dimension,dimension];
 
-            // speichere Textfarbe
+            // speichere Textfarbe nun temporär
             ConsoleColor previous_color = Console.ForegroundColor;
 
             // maximale Anzahl von Stellen für ein einzelnes Produkt
